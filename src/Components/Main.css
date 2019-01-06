@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7")
+      format("svg");
+}
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  background-color: darkturquoise;
+}
+
+nav.navbar,
+.navbar-default {
+  background-color: #2892d7 !important;
+}
+
+.navbar-default {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  background-color: transparent;
+}
+.navbar-default .navbar-text {
+  color: white;
+}
+
+#main {
+  position: absolute;
+  background-color: darkslategray;
+  width: 40%;
+  height: 78%;
+  margin: 0% 12%;
+  margin-bottom: 2%;
+}
+Row {
+  margin: 0 5%;
+}
+.display {
+  color: black;
+  background-color: honeydew;
+  width: 95%;
+  height: 10%;
+  margin: 2% 2%;
+}
+.display {
+  width: 96%;
+  text-align: right;
+}
+#main .display > h3 {
+  padding-right: 10px;
+  color: Black;
+}
+
+.btn-row {
+  margin: 2% 2%;
+}
+.btn-col > h3 {
+  text-align: center;
+}
+.btn {
+  position: relative;
+  width: 105%;
+  height: 80px;
+}
+.btn:hover {
+  transform: scale(1.05);
+  color: black;
+}

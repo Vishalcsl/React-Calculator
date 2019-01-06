@@ -1,0 +1,14 @@
+.btn-large {
+  height: 100%;
+}
+
+#equals {
+  position: absolute;
+  width: 20%;
+  height: 26%;
+  color: white;
+  border-radius: 5px;
+  background-color: #245580;
+  margin-left: 78%;
+  margin-top: -28%;
+}
